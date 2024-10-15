@@ -1,0 +1,65 @@
+.hero {
+    background-color: #d8d7d7; /* Use a solid background color instead */
+    color: #070505;
+    text-align: center;
+    padding: 4rem 2rem;
+    animation: fadeIn 1s ease-in;
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #080606;
+    animation: slideIn 1s ease-in-out;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    animation: fadeInUp 1s ease-in;
+}
+
+.hero strong {
+    color: #06138b; /* Highlight important text */
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

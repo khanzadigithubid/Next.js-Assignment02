@@ -1,0 +1,50 @@
+/* Home.module.css */
+
+.container {
+    background-color: #1a1a1a; /* Dark background color for the main container */
+    color: #f0f0f0; /* Light text color for contrast */
+    min-height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutSection,
+  .servicesSection {
+    margin: 2rem auto; /* Center sections with margin */
+    padding: 2rem; /* Space inside the sections */
+    background-color: #2a2a2a; /* Slightly lighter dark background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    max-width: 800px; /* Max width for sections */
+  }
+  
+  .sectionTitle {
+    font-size: 2rem; /* Size for section headings */
+    margin-bottom: 1rem; /* Space below headings */
+    color: #f0f0f0; /* Light color for headings */
+  }
+  
+  .sectionDescription {
+    font-size: 1.125rem; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for readability */
+    margin-bottom: 1.5rem; /* Space below paragraphs */
+  }
+  
+  .servicesList {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+  }
+  
+  .serviceItem {
+    font-size: 1rem; /* Font size for list items */
+    background-color: #3a3a3a; /* Background for list items */
+    margin: 0.5rem 0; /* Margin between list items */
+    padding: 1rem; /* Padding for list items */
+    border-radius: 5px; /* Rounded corners for list items */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+  
+  .serviceItem:hover {
+    background-color: #4a4a4a; /* Lighter background on hover */
+  }
+  

@@ -1,0 +1,39 @@
+.header {
+    background-color: #380305; /* Primary background color */
+    color: #fff; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around; /* Space out links */
+    align-items: center;
+  }
+  
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px; /* Space between links */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: 500;
+  }
+  
+  .navbar a:hover {
+    color: #080a0c; /* Highlight color on hover */
+  }
+  

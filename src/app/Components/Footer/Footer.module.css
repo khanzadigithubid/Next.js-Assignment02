@@ -1,0 +1,21 @@
+.footer {
+    background-color: #380305; /* Optional: Background color for the footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.2rem; /* Adjust this value for larger text */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+}
